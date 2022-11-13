@@ -11,48 +11,48 @@
 <body>
 
     <header class="navbar">
-        <nav class="box"> 
 
+        <nav class="box"> 
             <a href="" class="nav__logo">
                 <img src="./Source/img/favicon.png" class=logo alt="logo">Store
-            </a>        
+            </a>       
+            
             <div class="menu">
-
                 <ul class="menu__options">
                     <li class="option"><a href="#home"></a>Home</li>
                     <li class="option"><a href="#products"></a>Products</li>
                 </ul>
-
             </div>
+
             <div class="shop">
-                <i class='bx bx-cart'></i>
-                <span class="count">0</span>
+                <i class='bx bx-cart'>
+                    <span class="countproduct">0</span></i>  
                 <i class='bx bx-grid-alt'></i>               
             </div>
         </nav>
+
     </header>
 
     <div class="cart">
 
-            <h2 class="cart__title">My Cart</h2>
+        <h2 class="cart__title">My Cart</h2>
 
-            <div class="cart__content">
+        <div class="cart__content"> 
+        </div>
 
-                <div class="cart__empty">
-                <img class="cart-img" src="./Source/img/empty-cart.png" alt="">
-                <h2 class="img__title">Your car is empty</h2>
-                </div>
+        <div class="cartShop__total">
+
+            <div class="cart__product">
+                <img src="./Source/img/empty-cart.png" alt="" class="img">
+            </div> 
+
+            <div class="total"> 
+                <span><h3 class="total__price">total :</h3></span><strong> $${total}</strong></span></span>
             </div>
 
-                <div class="cart__inventory">
-                    <span class="items-count">0 items</span>
-                    <span class="total">$0.00</span>
-                </div>
-            <div class="contentCartShop">
-                <button class="add-item">+</button>
-                <button class="rest-item">-</button>
-                <button class="del-item">Del</button>
-            </div>
+            <button class="buy">Buy</button>
+
+        </div>   
 
     </div>
 
@@ -102,47 +102,6 @@
                     </li>
                 </ul>
                 <div class="product__content" id="product__content">
-                    <article class="product" id="content">
-                        <div class="product_bg">
-                            <img class="product__img" src="./Source/img/featured1.png" alt="Hoodies">
-                        </div>
-                        <div class="info">
-                            <h3 class="price">$14,00 <span class="units">| Stock: 10</span>
-                            </h3>
-                            <h3 class="name">Hoodies</h3>
-                            <button  id="1" class="add__product">
-                                <i class="bx bx-plus" id="btn1"></i>
-                            </button>
-                        </div>
-                    </article>
-
-                    <article class="product" id="content">
-                        <div class="product_bg">
-                            <img class="product__img" src="./Source/img/featured2.png" alt="Shirts">
-                        </div>
-                        <div class="info">
-                            <h3 class="price">$24,00 <span class="units">| Stock: 15</span>
-                            </h3>
-                            <h3 class="name">Shirts</h3>
-                            <button class="add__product"  id="2">
-                                <i class="bx bx-plus" id="btn1"></i>
-                            </button>
-                        </div>
-                    </article>
-
-                    <article class="product" id="content">
-                        <div class="product_bg">
-                            <img class="product__img" src="./Source/img/featured3.png" alt="Sweatshirts">
-                        </div>
-                        <div class="info">
-                            <h3 class="price">$24,00 <span class="units">| Stock: 20</span>
-                            </h3>
-                            <h3 class="name">Sweatshirts</h3>
-                            <button class="add__product"  id="3">
-                                <i class="bx bx-plus" id="btn1"></i>
-                            </button>
-                        </div>
-                    </article>
                 </div>
             </div>
         </section>
